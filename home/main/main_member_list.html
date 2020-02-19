@@ -1,0 +1,120 @@
+
+<html lang="en"><head>
+	<title>SIMA</title>
+	<link href="../../static/css/sima_style.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="../../static/scripts/sima_main.js"></script>
+	<script language="javascript" type="text/javascript" src="../../static/scripts/jquery.js"></script>
+	<script src="../../static/scripts/jquery.cycle2.min.js"></script>
+</head>
+
+<body style="background:rgb(255,246,89);background-image: url('../../static/pics/main/bg.jpg')">
+
+
+<div id="container">
+	
+  <div style="min-height:1024px;">	  
+  
+		<div id="top_bar" style="position:relative;height:120px;background:rgba(127,127,127,0.5)">
+			<ul id="top_bar_header" style="padding-top:10px;color:#fff;padding-left:450px">
+				<li style="float:left;margin-left:20px;width:100px" ><div id="SIMALogo" onclick="location.href='../../home/main/main.html'"></div></li>
+				<li style="float:left;margin-left:20px;line-height:100px;height:100px;"> <font face="HeaderFont" size="4"> <font size="12"><b>S</b></font>CIENCE <font size="12"><b>I</b></font>NSTITUTE <font size="12"><b>M</b></font>ALAYALI <font size="12"><b>A</b></font>SSOCIATION </font></li>
+			</ul>
+		</div>
+		
+		<div id="content" style="" >		
+
+			
+			<div id="spacer_top" style="height:140px"></div>
+			
+			<div id="section_header" style="padding-left:20px ;">	
+				
+				<div style="padding-left:5px ;height:60px">
+				    <div id="section_header_top">
+						<div id="section_title" >MEMBERS</div>
+						<div id="section_title_bx" style="height:3px;background:rgb(0,0,0)"></div>
+					</div>
+					
+					<div id="section_tabs">
+						<div id="section_tab" style=""> 2015 </div>	
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div id="spacer" style="height:15px"></div>			
+			
+			<div style="width:720px;display:inline-table;margin-top:20px;color:rgb(0,0,0)">
+			  <!--div class="btnSIMA" style="float:right;" onclick='MemberSearch(2)'>LOCATION</div>
+			  <div class="btnSIMA" style="float:right;"  onclick='MemberSearch(1)'>COURSE</div>
+			  <div class="btnSIMA" style="float:right;" onclick='MemberSearch(0)'>NAME</div-->
+			  <div id="Company"  tabindex="1" style="line-height:40px;float:right;width:200px;height:40px;border:thin solid #000000;text-align:center;font-family:TitleFont;font-size:large;" contenteditable>search-term</div>			  			  
+			</div>
+			
+			<div id="variable_height" style="" >
+					
+			<div id="spacer" style="height:20px"></div>
+			 
+			<div class="MemberTable" style="">
+			<table id="memt" >
+			  <tr id="memh" style="margin-bottom:60px">
+				<td><div class="tIndex " style="font-weight:;margin-bottom:60px"></div></td>
+				<td><div class="tName " style="font-weight:bold">NAME</div></td> 
+				<td><div class="tCourse " style="font-weight:bold">COURSE</div></td> 
+				<td><div class="tPlace " style="font-weight:bold">LOCATION</div></td>
+			  </tr>
+			  
+			  <tr id="mem1" class="tev" >
+				<td><div class="tIndex "></div></td>
+				<td><div class="tName "></div></td> 
+				<td><div class="tCourse " ></div></td> 
+				<td><div class="tPlace "></div></td>
+			  </tr>
+			  <tr id="mem2" class="tod">
+				<td><div class="tIndex "></div></td>
+				<td><div class="tName "></div></td> 
+				<td><div class="tCourse " ></div></td> 
+				<td><div class="tPlace "></div></td>
+			  </tr>
+			</table>
+			</div>
+			
+			
+			<div id="spacer" style="height:20px"></div>	
+			
+			</div>
+						
+		</div>
+  </div>
+ 
+</div>
+
+<script type="text/javascript">
+
+var articles=[];
+//LoadArticleList();
+
+
+$('#Company').bind('keydown', function(event) {
+	if(event.keyCode==13){
+		MemberSearch(-1)
+	}    
+ });
+ 
+ $('#Company').click(function(event) {
+    $('#Company').empty();
+ });
+ 
+</script> 
+<script type="text/javascript">
+  var MemberData = [];
+  MemberData.cloned = false;
+  $(document).ready(function() {
+		$('#variable_height').css('width',0.5*(760+$(window).width())) ;
+  });
+  LoadMembers("2015");
+</script> 
+<script type="text/javascript">
+setup_header_footer();
+</script> 
+</body></html>

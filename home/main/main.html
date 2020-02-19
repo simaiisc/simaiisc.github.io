@@ -1,0 +1,95 @@
+
+<html lang="en"><head>
+	<title>SIMA</title>
+	<link href="../../static/css/sima_style.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="../../static/scripts/sima_main.js"></script>
+	<script language="javascript" type="text/javascript" src="../../static/scripts/jquery.js"></script>
+</head>
+
+<body style="background:rgb(255,232,178);background-image: url('../../static/pics/main/bg.jpg')">
+
+<div id="container">
+	
+  <div style="min-height:1024px;">	  
+  
+		<div id="top_bar" style="position:relative;height:120px;background:rgba(127,127,127,0.5)">
+			<ul id="top_bar_header" style="padding-top:10px;color:#fff;padding-left:450px">
+				<li style="float:left;margin-left:20px;width:100px" ><div id="SIMALogo" onclick="location.href='../../home/main/main.html'"></div></li>
+				<li style="float:left;margin-left:20px;line-height:100px;height:100px;"> <font face="HeaderFont" size="4"> <font size="12"><b>S</b></font>CIENCE <font size="12"><b>I</b></font>NSTITUTE <font size="12"><b>M</b></font>ALAYALI <font size="12"><b>A</b></font>SSOCIATION </font></li>
+			</ul>
+		</div>
+		
+		<div id="content">		
+			
+			<div id="spacer" style="height:130px"></div>
+			
+			<div id="SIMA_MainCarousel" style="width:768px;height:275px;overflow:hidden" >					
+					<div style="position:relative;width:768px;height:275px;float:left"><canvas id="my-canvas"> </canvas></div>
+					<div id="CarC" style="position:relative;width:768px;height:275px;float:left;top:-275px;">
+						<div id="CarCL" style=""></div>
+						<div id="CarCR" style="left:708px;"></div>
+					</div>
+			</div>
+			
+			<div id="spacer" style="height:40px"></div>
+			<!--div id="section_tab" style="" onclick="RunCarousel()"> Change </div-->	
+			<div style="">
+				<div style="position:relative;float:left;">			
+					<div id="about_btn" class="main_tab" style="" onclick="footer_nav('main_about',-1)"> ABOUT US </div>
+					<div class="main_tab" style="" onclick="window.sessionStorage.setItem('GalleryToLoad','nogallery');footer_nav('main_gallery',-1)"> ARCHIVES </div>
+					<div class="main_tab" style="" onclick="footer_nav('main_article_list',0)"> ACTIVITIES </div>
+					<div class="main_tab" style="" onclick="footer_nav('main_discussions_list',0)"> ARTICLES</div>
+					<div class="main_tab" style="" onclick="footer_nav('main_member_list',-1)"> MEMBERS </div>				
+				</div>
+				<div id="UpcomingContainer" style="position:relative;float:left;margin-left:20px">
+					<div style="text-align:center;font-family:TestFont;font-size:xx-large;margin-top:10px;color:rgb(80,80,80)">
+						What's New
+				    </div>
+					<div id="spacer" style="height:30px"></div>
+					<div id="main_ic1" class="main_ic_container">
+						<div class="main_icbg">					
+							<div class="main_ic" onclick="GoToPage('articles','Farewell')" style="background:url('../../home/main/latest/ic6.png')"></div>
+						</div>
+						<div class="main_ic_t">Farewell '16</div>
+					</div>
+					<div id="main_ic2" class="main_ic_container">
+						<div class="main_icbg">					
+							<div class="main_ic" onclick="GoToPage('articles','SCL')" style="background:url('../../home/main/latest/ic7.png')"></div>
+						</div>
+						<div class="main_ic_t">SCL '16</div>
+					</div>
+					<div id="main_ic2" class="main_ic_container">
+						<div class="main_icbg">					
+							<div class="main_ic" onclick="GoToPage('discussions','Rendezvous with Prof Vijayan')" style="background:url('../../home/main/latest/ic8.png')"></div>
+						</div>
+						<div class="main_ic_t">REMINISCENCES</div>
+					</div>
+					<div id="main_ic2" class="main_ic_container">
+						<div class="main_icbg">					
+							<div class="main_ic" onclick="GoToPage('discussions','Padachonn thanna pani')" style="background:url('../../home/main/latest/ic4.png')"></div>
+						</div>
+						<div class="main_ic_t">Open Pages</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--div id="spacer" style="width:768px;height:50px;float:left;font-family:TitleFont;font-size:large;padding-top:40px;padding-left:265px;color: rgb(80,80,80);"> 
+				<a href="https://goo.gl/forms/IGPjPwaJceN16afl1"> <b>Register for SCL '16 !</b></a>
+			</div-->
+			
+
+			<div id="spacer" style="height:60px"></div>
+			<div id="spacer" style="height:200px"></div>
+
+			
+			
+		</div>
+  </div>
+ 
+</div>
+
+<script src="../../static/scripts/sima_carousel.js"></script>
+<script type="text/javascript">
+setup_header_footer();
+</script> 
+</body></html>

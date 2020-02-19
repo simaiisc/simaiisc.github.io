@@ -1,0 +1,10 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+
+ErrorDocument 404 http://simaiisc.org/error.html
+RewriteBase /
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^scl.simaiisc.org$ [NC]
+RewriteRule (.*) http://www.scl2015-1063.appspot.com/$1 [R=301,L]
+ 
+</IfModule>

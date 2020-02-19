@@ -1,0 +1,134 @@
+
+<html lang="en"><head>
+	<title>SIMA</title>
+	<link href="../../static/css/sima_style.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="../../static/scripts/sima_main.js"></script>
+	<script language="javascript" type="text/javascript" src="../../static/scripts/jquery.js"></script>
+</head>
+<body style="background:rgb(255,246,89);background-image: url('../../static/pics/main/bg.jpg')">
+
+
+<div id="container">
+	
+  <div style="min-height:1024px;">	  
+  
+		<div id="top_bar" style="position:relative;height:120px;background:rgba(127,127,127,0.5)">
+			<ul id="top_bar_header" style="padding-top:10px;color:#fff;padding-left:450px">
+				<li style="float:left;margin-left:20px;width:100px" ><div id="SIMALogo" onclick="location.href='../../home/main/main.html'"></div></li>
+				<li style="float:left;margin-left:20px;line-height:100px;height:100px;"> <font face="HeaderFont" size="4"> <font size="12"><b>S</b></font>CIENCE <font size="12"><b>I</b></font>NSTITUTE <font size="12"><b>M</b></font>ALAYALI <font size="12"><b>A</b></font>SSOCIATION </font></li>
+			</ul>
+		</div>
+		
+		
+		<div id="content" style="position:absolute" >		
+		
+	
+			
+			<div id="spacer_top" style="height:140px"></div>
+			
+			<div id="section_header" style="padding-left:20px ;">	
+				
+				<div style="padding-left:5px ;height:60px">
+				    <div id="section_header_top">
+						<div id="section_title" >ARTICLES</div>
+						<div id="section_title_bx" style="height:3px;background:rgb(0,0,0)"></div>
+					</div>
+					
+					<div id="section_tabs">
+						<div id="section_tab" style=""> CULTURAL </div>	
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div id="spacer" style="height:15px"></div>			
+			
+			<div id="variable_height" style="" >
+					
+			<div id="spacer" style="height:20px"></div>
+			 
+			<div id="article_abs_about" style="width:680px;height:120px;border-bottom:0px;padding-left:0px;padding-top:10px;">				
+				<div style="float:left ; width:90% ; padding-left:10px">
+					<div>					
+						<div id="discuss_abstract_text">
+							<b> Research Highlights </b> showcase the cutting edge research done at IISc, Bangalore. Contents from Engineering and Science Streams are featured. Dig in to find more.
+						</div>
+					</div>				
+				</div>	
+			</div>	
+			
+			<div id="article_abs_1" class="article_abstract_1"  onclick="location.href='./main_article.html';">
+				<div style="float:left ;">
+					<div id="article_abstract_image" style="">
+					</div>
+				</div>
+				<div style="float:left ; width:460px ; padding-left:10px">
+					<div >					
+						<div class="discuss_abstract_title">
+						
+						</div>
+					</div>					
+					<div id="spacer" style="height:10px"></div>
+					<div>					
+						<div id="discuss_abstract_text">
+						</div>
+					</div>				
+				</div>	
+			</div>		
+			
+		
+			<div id="article_abs_2" class="article_abstract_2"  onclick="location.href='./main_article.html';">
+				
+				<div style="float:left ; width:460px ; padding-left:10px">
+					<div >					
+						<div class="discuss_abstract_title" style="text-align:right">
+						</div>
+					</div>					
+					<div id="spacer" style="height:10px"></div>
+					<div>					
+						<div id="discuss_abstract_text">
+						</div>
+					</div>				
+				</div>	
+				<div style="float:left ;">
+					<div id="article_abstract_image" style="">
+					</div>
+				</div>
+				
+			</div>
+
+			
+			
+			<div id="spacer" style="height:20px"></div>	
+			
+			</div>
+		</div>
+  </div>
+ 
+</div>
+
+<script type="text/javascript">
+
+		
+//Navigate to section
+ var section = window.sessionStorage.getItem('SectionToLoad');
+ if( typeof(section) != "undefined"){
+	if(section != -1) {				
+		TabId=section;				
+		}
+ }
+	 
+LoadDiscussionsList('discussions');
+
+</script> 
+<script type="text/javascript">
+  $(document).ready(function() {
+		$('#variable_height').css('width',0.5*(760+$(window).width())) ;
+  });
+</script> 
+<script type="text/javascript">
+setup_header_footer();
+</script> 
+
+</body></html>

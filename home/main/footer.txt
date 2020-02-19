@@ -1,0 +1,31 @@
+
+			<div id="footer" style="border-top: 1px solid #000000;">				
+				<div style="height:30px"></div>
+				<div class="footer_box">
+					<div class="footer_main" style="" onclick="footer_nav('main_about',-1)"> ABOUT US </div>
+					<div class="footer_main" style="" onclick="window.sessionStorage.setItem('GalleryToLoad','nogallery');footer_nav('main_gallery',-1)"> ARCHIVES </div>
+					<div class="footer_main" style="" onclick="footer_nav('main_member_list',-1)"> MEMBERS </div>
+				</div>
+				<div class="footer_box">
+					<div class="footer_main" style="" onclick="footer_nav('main_article_list',0)"> ACTIVITIES </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_article_list',0)"> CULTURAL </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_article_list',1)"> SPORTS </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_article_list',2)"> CELEBRATIONS </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_article_list',3)"> GET-TOGETHERS </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_article_list',4)"> INITIATIVES </div>
+				</div>
+				<div class="footer_box">
+					<div class="footer_main" style="" onclick="footer_nav('main_discussions_list',0)"> ACTIVITIES </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_discussions_list',0)"> RESEARCH HIGHLITES </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_discussions_list',1)"> OPEN PAGES </div>
+					<div class="footer_sub" style="" onclick="footer_nav('main_discussions_list',2)"> INTERVIEWS </div>
+				</div>
+				<div class="footer_box">
+					<div class="footer_main">
+						<p><b>CONTACT US</b></p>
+						<p>Secretary, SIMA</p>
+						<p>IISc Bangalore</p>
+						<p>secretary.sima.iisc@gmail.com</p>
+					</div>
+				</div>
+			</div>

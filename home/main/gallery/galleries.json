@@ -1,0 +1,60 @@
+{
+    "galleries" : [
+		{
+			"id"   : 1,
+			"name" : "SCL",
+			"pic"  : "SCL.jpg" 
+		},
+		{
+			"id"   : 2,
+			"name" : "SPL",
+			"pic"  : "SPL.jpg" 
+		},
+		{
+			"id"   : 3,
+			"name" : "MUDRA",
+			"pic"  : "MUDRA.jpg" 
+		},
+		{
+			"id"   : 4,
+			"name" : "Christmas",
+			"pic"  : "Christmas.jpg" 
+		},
+		{
+			"id"   : 5,
+			"name" : "Onam",
+			"pic"  : "Onam.jpg" 
+		},
+		{
+			"id"   : 6,
+			"name" : "Iftaar",
+			"pic"  : "Iftaar.jpg" 
+		},
+		{
+			"id"   : 7,
+			"name" : "Freshers Welcome",
+			"pic"  : "Freshers.jpg" 
+		},
+		{
+			"id"   : 8,
+			"name" : "Farewell",
+			"pic"  : "Farewell.jpg" 
+		},
+		{
+			"id"   : 9,
+			"name" : "Tour",
+			"pic"  : "Tour.jpg" 
+		},
+		{
+			"id"   : 10,
+			"name" : "Charity",
+			"pic"  : "Charity.jpg" 
+		},
+		{
+			"id"   : 11,
+			"name" : "447",
+			"pic"  : "447.jpg" 
+		}
+	]
+	
+}

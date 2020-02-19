@@ -1,0 +1,145 @@
+
+<html lang="en"><head>
+	<title>SIMA</title>
+	<link href="../../static/css/sima_style.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="../../static/scripts/sima_main.js"></script>
+	<script language="javascript" type="text/javascript" src="../../static/scripts/jquery.js"></script>
+</head>
+
+
+<body style="background:rgb(255,246,89);background-image: url('../../static/pics/main/bg.jpg')">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1414176488821691";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="container">
+	
+  <div style="min-height:1024px;">	  
+  
+		<div id="top_bar" style="position:relative;height:120px;background:rgba(127,127,127,0.5)">
+			<ul id="top_bar_header" style="padding-top:10px;color:#fff;padding-left:450px">
+				<li style="float:left;margin-left:20px;width:100px" ><div id="SIMALogo" onclick="location.href='../../home/main/main.html'"></div></li>
+				<li style="float:left;margin-left:20px;line-height:100px;height:100px;"> <font face="HeaderFont" size="4"> <font size="12"><b>S</b></font>CIENCE <font size="12"><b>I</b></font>NSTITUTE <font size="12"><b>M</b></font>ALAYALI <font size="12"><b>A</b></font>SSOCIATION </font></li>
+			</ul>
+		</div>
+		
+		
+		<div id="content">	
+		
+			<div id="spacer_top" style="height:140px"></div>
+			
+			<div id="article_header" style="padding-left:20px">				
+				<div id="article_title" style="font-size:x-large;" ></div>
+				<div id="article_title_b" style="width:700px;height:2px;background:rgb(0,0,0)"></div>
+			</div>
+			
+			<div id="spacer" style="height:15px"></div>			
+			
+			<div id="variable_height" style="">
+			<div id="spacer" style="height:5px"></div>	
+			<div id="Gallery"  style="padding-left:20px">
+				<div id="SIMAGallery" style="float:left;width:700px;height:336px;background:#fff;overflow: hidden;margin-bottom:10px;background-size:cover">
+				</div>
+				
+			</div>
+			
+			<div id="spacer" style="height:20px"></div>
+			 
+    
+			<div id="article_text">
+				
+				<div id="article_text_text" >
+	
+<p> 
+ Article text
+</p>
+
+
+
+				</div>
+
+			
+			</div>
+			
+			
+			<div id="spacer" style="height:20px"></div>
+			
+			<div id="article_author">
+				<div style="float:left ;">
+					<div id="author_image" style="background-size:contain">
+					</div>
+				</div>
+				<div style="float:left ; width:599px">					
+					<div id="article_author_text">
+	
+					</div>
+				</div>						
+			</div>
+			
+			<div id="spacer" style="height:20px"></div>	
+			
+			<div id="fblikeplugin" style="background:rgb(255,255,255);overflow:hidden;width:700px;padding-top:20px;padding-bottom:20px;padding-left:20px">
+			<div class="fb-like" data-href="http://simaiisc.org/home/main/main_article.html" data-width="650" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+			<div id="fbcommentplugin">
+			  <div class="fb-comments" data-href="http://simaiisc.org/home/main/main_article.html" data-width="650" data-numposts="5" data-colorscheme="dark"></div>
+			</div>
+			
+			</div>
+		</div>
+  </div>
+ 
+</div>
+
+<script type="text/javascript">
+
+
+
+var SIMASlider = [];
+
+var	article=[];
+var	authors=[];
+var galleries=[];
+</script> 
+
+<script>
+
+  $(document).ready(function() {
+		
+		var QueryString = GetQueryString();
+
+		console.log(QueryString['discussions'])
+		
+		if(QueryString['discussions']==undefined){
+			console.log('Load Discussion : ' + window.sessionStorage.getItem("ArticleToLoad"));
+			var article = window.sessionStorage.getItem("ArticleToLoad");		
+		}else{
+			var s = QueryString['discussions'];
+			s = s.replace(/\+/g,' ');			
+			var article = 'discussions/' + s;
+		}
+		
+		
+		article = typeof(article) == "undefined" ? "SCL" : article;
+		
+		
+		LoadArticle(article);
+				
+		$('#variable_height').css('width',0.5*(760+$(window).width())) ;
+		
+     });
+
+
+</script>
+<script type="text/javascript">
+setup_header_footer();
+</script> 
+
+</body></html>

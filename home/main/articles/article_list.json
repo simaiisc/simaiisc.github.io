@@ -1,0 +1,94 @@
+{
+    "articles" : [		
+		{		
+			"article_type" : "CULTURAL",
+			"article_list" : [	
+								{
+									"article_title": "MUDRA",
+									"article_image": "MUDRA_icon.jpg",
+									"article_abstract": "MUDRA is the annual cultural fest of SIMA, whose motto proclaims the celebration of good old days and sweet memories. It lauds the rich cultural heritage of Kerala and provides a forum for its members to show case their talent and creativity and awaken the child in each and every one of us."
+								}		
+							 ]
+		},
+		{		
+			"article_type" : "SPORTS",
+			"article_list" : [				
+								  {
+									"article_title": "SCL",
+									"article_image": "SCL_icon.jpg",
+									"article_abstract": "SIMA Cricket League (SCL) is into its 3rd edition &amp; with each passing year as has been the norm with all other activities of SIMA, it has got BIGGER &amp; BETTER. SCL was the first main sports event that SIMA had organized which paved the way for a host of other events in due course of time."
+								  },
+								  {
+									"article_title": "SPL",
+									"article_image": "SPL_icon.jpg",
+									"article_abstract": "Less than a fortnight into 2016 & already a sense of anticipation can be felt in the cool air of Bangalore as IISc decks up to host the 3rd edition of SIMA Premier League (SPL). Undoubtedly, the crown jewel among SIMA's numerous premier sporting events; SPL had hogged the lime-light ever since it was conceived."
+								  },	
+								  {
+									"article_title": "SBL",
+									"article_image": "SBL_icon.jpg",
+									"article_abstract": "Why should boys have all the fun??? The female counterparts of SIMA get a chance to show their zeal and sportive skills at the SIMA Badminton League (SBL). The motto of this event is not to become a Saina Nehwal or Jwala Gutta but to enjoy all the serves and smashes irrespective of the results of the game."
+								  }
+							 ]
+		},
+		{		
+			"article_type" : "CELEBRATIONS",
+			"article_list" : [	
+								{
+									"article_title": "Vishu",
+									"article_image": "Vishu_icon.jpg",
+									"article_abstract": "Vishu, the harvest festival of Kerala is observed on the first day of Malayalam Calendar. SIMA prepares a 'Vishukani', the auspicious sight with a hope that the aura of the vision will glorify the year ahead. It is the time of the year when SIMA emerges as a family, with the elders offering the 'Vishu Kaineetam'."
+								},			
+								{
+									"article_title": "Ifthar",
+									"article_image": "Ifthar_icon.jpg",
+									"article_abstract": "Ramadan is observed as the holy month in Islamic calendar and Muslims worldwide fast from dawn to dusk for all 30 days of the month. To foster the brotherhood and to celebrate Eid ul-Fitr, SIMA organizes an Ifthar spread which literally means 'breakfast' where all its members gather together and partake the delicacies."
+								},
+								{
+									"article_title": "Onam",
+									"article_image": "Onam_icon.jpg",
+									"article_abstract": "Onam is a nostalgic time for every non-resident Malayali. As always, this year too SIMA had made sure to keep the spirit of Onam alive in IISc. It once again made us realize the strength and the warmth that we shared as a community which was a testament to the numerous events that we had organized in the past."
+								},
+								{
+									"article_title": "Christmas and New Year",
+									"article_image": "Christmas and New Year_icon.jpg",
+									"article_abstract": "X'Mas celebrations commence with the hanging of the star, followed by setting up the crib and decorating the X'mas tree which adds colour to the IISc premises. The celebration of sharing and caring is never complete without melodious carols, delicious cakes and sharing gifts which kick off SIMA's events for the New Year."
+								}								
+							 ]
+		},
+		{		
+			"article_type" : "GET-TOGETHERS",
+			"article_list" : [	
+								{
+									"article_title": "Freshers Welcome",
+									"article_image": "Freshers Welcome_icon.jpg",
+									"article_abstract": "Every year a new batch arrives with a potpourri of emotions and to ease their concerns SIMA starts off each academic year with the Freshers' Welcome Party. It is just a mere beginning of the warmth that SIMA offers during one's stay in IISc after all it's a home away from home!!!"
+								},
+								{
+									"article_title": "SIMA Tour",
+									"article_image": "SIMA Tour_icon.jpg",
+									"article_abstract": "Life at IISc demands ample time and dedication and hence a day away from these busy schedules refreshes the mind and rejuvenates the spirits. Hence SIMA annually organizes a one-day tour which makes us to enjoy the crafts of nature, mesmerize in our heritage values and create fond memories with our friends"
+								},
+								{
+									"article_title": "Farewell",
+									"article_image": "Farewell_icon.jpg",
+									"article_abstract": "With every new batch joining in IISc, there is also a batch moving out. As the saying of Dr. Seuss goes 'don't cry because it's over; smile because it happened'. Taking cue from that, SIMA organizes a Farewell Party for the members passing out with cheerful spirits."
+								}								
+							 ]
+		},
+		{		
+			"article_type" : "INITIATIVES",
+			"article_list" : [	
+								{
+									"article_title": "Charity",
+									"article_image": "Charity_icon.jpg",
+									"article_abstract": "SIMA, an organization that celebrates togetherness, believes in the joy of sharing with the needy. With this motto, every year SIMA identifies someone in need of monetary help and organizes a fund raiser through small yet significant contributions and ensures that it reaches the right hands."
+								},	
+								{
+									"article_title": "44 by 7 C",
+									"article_image": "447c_icon.jpg",
+									"article_abstract": "This is a platform organized by SIMA for events like panel discussions, talks by eminent speakers etc. to create awareness and insights about the socio-economic and cultural climate incident in the society. Being responsible citizens & a major community in IISc, we feel obliged to be involved in such efforts."
+								}								
+							 ]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"article_type" : "",
+	"article_abstract"     : {
+			"article_title" : "",
+			"article_image" : "",
+			"article_abstract" : ""
+					 },
+    "article" : 
+		{
+			"article_title" : "",
+			"article_author": "",
+			"galleries"     : "",
+			"pic"           : "",
+			"article"       : "",
+			"about_author"  : "",
+			"author_pic"    : "", 
+			"dummy" : ""
+		}	
+}
+
+
